@@ -1,3 +1,4 @@
+import ProjectsForm from "../features/Project/ProjectsForm";
 import Footer from "../ui/Footer";
 
 import Header from "../ui/Header";
@@ -8,12 +9,13 @@ function Projects() {
   return (
     <>
       <div>
-        <Header>我的專案</Header>
+        <Header>我的作品集</Header>
       </div>
       <div>
         <SideBar />
       </div>
 
+      <ProjectsForm />
       <div>
         <Footer />
       </div>

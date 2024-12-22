@@ -1,8 +1,7 @@
+import DescriptionMe from "../features/AboutMe/DescriptionMe";
 import Footer from "../ui/Footer";
 
 import Header from "../ui/Header";
-
-import SideBar from "../ui/SideBar";
 
 const AboutMe = () => {
   return (
@@ -11,7 +10,7 @@ const AboutMe = () => {
         <Header>關於我</Header>
       </div>
       <div>
-        <SideBar />
+        <DescriptionMe />
       </div>
       <div>
         <Footer />
