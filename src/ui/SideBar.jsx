@@ -7,7 +7,7 @@ function Sidebar() {
       <div className="mb-4">
         <div className="w-32 h-40 ml-auto mr-auto rounded-full overflow-hidden">
           <img
-            src="/public/selfie2.jpg"
+            src="/selfie2.jpg"
             alt="Profile"
             className="w-auto h-auto object-cover"
           />

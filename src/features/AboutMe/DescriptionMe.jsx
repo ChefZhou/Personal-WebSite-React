@@ -29,7 +29,7 @@ function DescriptionMe() {
 
   return (
     <Box>
-      <Avatar src="/public/selfie.jpg" alt="selfie.jpg" />
+      <Avatar src="/selfie.jpg" alt="selfie.jpg" />
       <div className="flex flex-col items-center py-4">
         <p
           style={{ whiteSpace: "pre-wrap" }}
