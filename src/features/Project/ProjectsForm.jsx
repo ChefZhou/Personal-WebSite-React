@@ -3,7 +3,7 @@ import Box from "../../ui/Box";
 
 function ProjectsForm() {
   return (
-    <Box title="作品集預覽">
+    <Box title="作品集">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {ProjectsData.map((project, index) => (
           <div key={index} className="flex flex-col items-center py-4">

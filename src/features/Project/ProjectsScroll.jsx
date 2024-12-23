@@ -1,16 +1,19 @@
 import { useEffect } from "react";
 import Swiper from "swiper";
-import "swiper/swiper-bundle.css";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
 import ProjectsData from "./ProjectsData";
 
 function ProjectsScroll() {
   useEffect(() => {
     const swiper = new Swiper(".swiper-container", {
+      modules: [Autoplay],
       slidesPerView: 1,
       spaceBetween: 10,
       loop: true,
       autoplay: {
-        delay: 3000,
+        delay: 1500,
         disableOnInteraction: false,
       },
       breakpoints: {
